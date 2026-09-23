@@ -66,7 +66,7 @@ class RateCardController extends Controller
             ->with('success', 'Rate card deleted.');
     }
 
-    /* ------------------------------------------------------------------ */
+
 
     private function validateCard(Request $request, ?int $ignoreId = null): array
     {
